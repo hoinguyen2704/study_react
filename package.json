@@ -4,7 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3000",
+    "dev": "vite",
+    "start": "vite",
+    "check": "tsc --noEmit",
+    "test": "jest --coverage",
+    "eject": "vite eject",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
