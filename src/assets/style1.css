@@ -1,0 +1,62 @@
+.hello{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.hello1{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+    &:hover{
+        background-color: #555;
+    }
+    &:active{
+        background-color: #222;
+    }
+    &:focus{
+        outline: none;
+    }
+    &:disabled{
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+    &:focus-visible{
+        outline: 2px solid #666;
+    }
+    &:focus-within{
+        background-color: #666;
+    }
+    &:lang(en){
+        color: #000;
+    }
+    &:lang(fr){
+        color: #fff;
+    }
+    &:not(:lang(en)){
+        color: #fff;
+    }
+    &:not(:lang(fr)){
+        color: #000;
+    }
+    &:nth-child(2){
+        margin-top: 10px;
+    }
+    &:nth-child(3){
+        margin-top: 20px;
+    }
+}

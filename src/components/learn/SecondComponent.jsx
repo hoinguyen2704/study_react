@@ -1,3 +1,5 @@
+import "../../assets/style1.css";
+
 const SecondComponent = () => {
     return (
         <div>
@@ -8,9 +10,14 @@ const SecondComponent = () => {
 
 const Third_Component = () => {
     return (
+        <>
         <div>
             <h1>Third Componenhvsvt</h1>
-        </div>
+            </div>
+            <div className="hello1">
+                địt mẹ mày
+            </div>
+        </>
     );
 }
 export {SecondComponent, Third_Component};
